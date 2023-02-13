@@ -47,8 +47,9 @@ The reading level will be returned from the server as a string. From the precedi
 
 This method will be activated upon receipt of a message from the server. Any state variables or functions that use the reading level should be written within this method.
 
+<img src="./communication_contract.png">
+
 ## Starting the Server
 The server requires the WebSocket, asyncio, and re libraries to run. Ensure that you have these installed before attempting to start the server.
 
-On the command line, in the same folder that stores the server script, run the following:
-python3 react-server.py
+On the command line, in the same folder that stores the server script, run the following: python3 react-server.py
